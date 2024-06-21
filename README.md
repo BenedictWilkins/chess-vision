@@ -4,16 +4,15 @@
 
 This project aims to convert photographs of chess positions into their digital counter-part. It is an exploration of the latest machine vision techniques. 
 
-Please note that this project is essentially solved already - see e.g. [chessify](https://chessify.me/news/chess-scanner-on-chessify-website) which provides it as a free service (if you have an account). It would be prudent to start there and see if we can find any issues. chessify is closed source, we want a free open source version!
+Please note that this problem is essentially already solved - see e.g. [chessify](https://chessify.me/news/chess-scanner-on-chessify-website) which provides it as a free service (if you have an account). It would be prudent to start there and see if we can find any limitations with it. chessify is closed source, we want a free open source version!
 
 There are various things to get involved with:
 
 #### 1. Data collection 
 
-Send us photos or videos of your chess board set up with different positions. By doing so you are consenting to your data being used in this project and other projects. If in doubt see the dataset license on [roboflow](https://app.roboflow.com/chessvision-zekst).
+Send us photos or videos of your chess board set up with different positions. By doing so you are consenting to your data being used in this project and other unrelated projects. If in doubt see the dataset license on [roboflow](https://app.roboflow.com/chessvision-zekst).
 
-If you know about web scraping, this is also an option. We want as much data as possible. IMPORTANT NOTE: if we go this route we need to respect copyright/licensing, so please only scrape images that are in the public domain. Please also record information about the images (e.g. url and date/time) in a convenient format (TBD).
-
+If you know about web scraping, this is also an option. We want as much data as possible. IMPORTANT NOTE: if we go this route we need to respect copyright/licensing, so please only scrape images that are in the public domain. Please also record information about the images (e.g. url and date/time) in a convenient format (to be decided).
 
 Some existing datasets which we might use:
 
@@ -43,16 +42,18 @@ Board:
 
 UNCATEOGIRSED:
 1. [Chess Recognition Dataset (ChessReD)](https://data.4tu.nl/datasets/99b5c721-280b-450b-b058-b2900b69a90f/2)
-2. 
-#### 2. Data cleaning & annotation
-We are using [roboflow](roboflow.com) to annotate data.
 
-Roboflow is great for this, but as the dataset gets larger we may reach the "free limit", at which point we will move the dataset to [kaggle](https://www.kaggle.com/).
+
+#### 2. Data cleaning & annotation
+We are using [roboflow](roboflow.com) to annotate data. We have a project there: https://app.roboflow.com/chessvision-zekst/chess-vision-cp2iz/ unfortunately only 2 people can be added as collaborators/annotators on the free version. So we will likely be switching access amoung ourselves. If this gets to annoying we may switch to annotating on our local machines... lets see.
+
+Roboflow is great for annotation, but as the dataset gets larger we may reach the free storage limit, at which point we will move the dataset to [kaggle](https://www.kaggle.com/).
 
 #### 3. Data augmentation
 
 Artificially expanding the dataset by adding noise, tranformations etc. We need scripts for this!
-NOTE: yolov8 has its own augmentation scheme which does geometric transformations, mosaic, etc. But lighting transformations or others might be useful. 
+
+NOTE: yolov8 (which is a promising direction) has its own augmentation scheme which does geometric transformations, mosaic, etc. These are also built into pytorch, but lighting transformations or others might be useful. 
 
 #### 4. Model selection & training
 Some models already exist for this. The most promising - and one that has been used for this purpose in various projects is [yolov8](https://github.com/ultralytics/ultralytics)
