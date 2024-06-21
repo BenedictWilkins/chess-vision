@@ -49,6 +49,7 @@ Roboflow is great for this, but as the dataset gets larger we may reach the "fre
 #### 3. Data augmentation
 
 Artificially expanding the dataset by adding noise, tranformations etc. We need scripts for this!
+NOTE: yolov8 has its own augmentation scheme which does geometric transformations, mosaic, etc. But lighting transformations or others might be useful. 
 
 #### 4. Model selection & training
 Some models already exist for this. The most promising - and one that has been used for this purpose in various projects is [yolov8](https://github.com/ultralytics/ultralytics)
