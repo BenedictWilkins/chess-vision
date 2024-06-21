@@ -20,7 +20,7 @@ Some existing datasets which we might use:
 Pieces Bounding box:
 1. https://universe.roboflow.com/mars-lab-2/getchess
 2. https://universe.roboflow.com/meinmein/chessv1-5ew7x
-3. https://universe.roboflow.com/rookeye/thesis-iklwo
+3. https://universe.roboflow.com/rookeye/thesis-iklwo (labels look dodgy)
 4. https://universe.roboflow.com/university-of-the-philippines-yieax/sp2-ym1iq
 5. https://universe.roboflow.com/visualizan2/c1-zhnfm
 6. https://universe.roboflow.com/test-rqjeo/sp2-bufgj
@@ -41,6 +41,9 @@ Board:
 2. https://universe.roboflow.com/motke/chess-segmentation-snnuv
 
 
+UNCATEOGIRSED:
+1. [Chess Recognition Dataset (ChessReD)](https://data.4tu.nl/datasets/99b5c721-280b-450b-b058-b2900b69a90f/2)
+2. 
 #### 2. Data cleaning & annotation
 We are using [roboflow](roboflow.com) to annotate data.
 
