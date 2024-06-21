@@ -17,8 +17,7 @@ If you know about web scraping, this is also an option. We want as much data as 
 
 Some existing datasets which we might use:
 
-##### Pieces:
-Bounding box:
+Pieces Bounding box:
 1. https://universe.roboflow.com/mars-lab-2/getchess
 2. https://universe.roboflow.com/meinmein/chessv1-5ew7x
 3. https://universe.roboflow.com/rookeye/thesis-iklwo
@@ -30,17 +29,16 @@ Bounding box:
 9. https://universe.roboflow.com/parth-junejas-hobbies-sfyv7/chess-pieces-v4qzm
 10. https://universe.roboflow.com/teste-6c5pa/fd-bc9g6/
 
-
-Segmentation:
+Pieces Segmentation:
 1. https://universe.roboflow.com/mohammad-zaid-bifle/chesssense-ai-top-view
 2. https://universe.roboflow.com/cortex/fault-detection-chess
+
+Pieces Digital:
+1. https://universe.roboflow.com/aigenerator-elmul/chessdetection-uhtoo
 
 Board:
 1. https://universe.roboflow.com/motke/chessboard-shtqr
 2. https://universe.roboflow.com/motke/chess-segmentation-snnuv
-
-Digital:
-1. https://universe.roboflow.com/aigenerator-elmul/chessdetection-uhtoo
 
 
 #### 2. Data cleaning & annotation
