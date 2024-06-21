@@ -64,6 +64,7 @@ Other similar projects:
 3. https://github.com/krzywilk/chessboard-checker-segmentation
 4. https://github.com/Vatsalparsaniya/Yolo-Segmentation-Chess
 5. https://github.com/Dilanya/Chess-Pieces-Detection
+6. https://blog.roboflow.com/chess-boards/ <--- this is particularly interesting
 6. ... no doubt there are more
 
 Most of these projects are working with toy datasets. The models may (or may not) extend to recognising chess peices "in the wild". Our goal is to build a model that will work in the wild for any chess board, lightning conditions, camera, etc. Such as the one chessify (might) have which is closed source.
