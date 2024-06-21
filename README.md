@@ -11,6 +11,35 @@ Send us photos or videos of your chess board set up with different positions. By
 
 If you know about web scraping, this is also an option. We want as much data as possible. IMPORTANT NOTE: if we go this route we need to respect copyright/licensing, so please only scrape images that are in the public domain. Please also record information about the images (e.g. url and date/time) in a convenient format (TBD).
 
+
+Some existing datasets which we might use:
+
+##### Pieces:
+Bounding box:
+1. https://universe.roboflow.com/mars-lab-2/getchess
+2. https://universe.roboflow.com/meinmein/chessv1-5ew7x
+3. https://universe.roboflow.com/rookeye/thesis-iklwo
+4. https://universe.roboflow.com/university-of-the-philippines-yieax/sp2-ym1iq
+5. https://universe.roboflow.com/visualizan2/c1-zhnfm
+6. https://universe.roboflow.com/test-rqjeo/sp2-bufgj
+7. https://universe.roboflow.com/pesu-ivi6u/chess-piece-detection-yob49
+8. https://universe.roboflow.com/testing-swl0e/chess-sample-rwz43
+9. https://universe.roboflow.com/parth-junejas-hobbies-sfyv7/chess-pieces-v4qzm
+10. https://universe.roboflow.com/teste-6c5pa/fd-bc9g6/
+
+
+Segmentation:
+1. https://universe.roboflow.com/mohammad-zaid-bifle/chesssense-ai-top-view
+2. https://universe.roboflow.com/cortex/fault-detection-chess
+
+Board:
+1. https://universe.roboflow.com/motke/chessboard-shtqr
+2. https://universe.roboflow.com/motke/chess-segmentation-snnuv
+
+Digital:
+1. https://universe.roboflow.com/aigenerator-elmul/chessdetection-uhtoo
+
+
 #### 2. Data cleaning & annotation
 We are using [roboflow](roboflow.com) to annotate data.
 
