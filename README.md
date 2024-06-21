@@ -1,15 +1,15 @@
-# chess-vision
-
-
+# Chess Vision
 
 ### Contributors guide
 
 This project aims to convert photographs of chess positions into their digital counter-part. It is an exploration of the latest machine vision techniques. 
-
 There are various things to get involved with:
 
 #### 1. Data collection 
+
 Send us photos or videos of your chess board set up with different positions. By doing so you are consenting to your data being used in this project and other projects. If in doubt see the dataset license on [roboflow](https://app.roboflow.com/chessvision-zekst).
+
+If you know about web scraping, this is also an option. We want as much data as possible. IMPORTANT NOTE: if we go this route we need to respect copyright/licensing, so please only scrape images that are in the public domain. Please also record information about the images (e.g. url and date/time) in a convenient format (TBD).
 
 #### 2. Data cleaning & annotation
 We are using [roboflow](roboflow.com) to annotate data.
@@ -29,7 +29,7 @@ Other similar projects:
 3. https://github.com/krzywilk/chessboard-checker-segmentation
 4. https://github.com/Vatsalparsaniya/Yolo-Segmentation-Chess
 5. https://github.com/Dilanya/Chess-Pieces-Detection
-6. ... no doubt there are more that I have missed
+6. ... no doubt there are more
 
 Most of these projects are working with toy datasets. The models may (or may not) extend to recognising chess peices "in the wild". Our goal is to build a model that will work in the wild for any chess board, lightning conditions, camera, etc. 
 
