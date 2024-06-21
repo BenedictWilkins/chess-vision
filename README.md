@@ -3,6 +3,9 @@
 ### Contributors guide
 
 This project aims to convert photographs of chess positions into their digital counter-part. It is an exploration of the latest machine vision techniques. 
+
+Please note that this project is essentially solved already - see e.g. [chessify](https://chessify.me/news/chess-scanner-on-chessify-website) which provides it as a free service (if you have an account). It would be prudent to start there and see if we can find any issues. chessify is closed source, we want a free open source version!
+
 There are various things to get involved with:
 
 #### 1. Data collection 
@@ -60,7 +63,7 @@ Other similar projects:
 5. https://github.com/Dilanya/Chess-Pieces-Detection
 6. ... no doubt there are more
 
-Most of these projects are working with toy datasets. The models may (or may not) extend to recognising chess peices "in the wild". Our goal is to build a model that will work in the wild for any chess board, lightning conditions, camera, etc. 
+Most of these projects are working with toy datasets. The models may (or may not) extend to recognising chess peices "in the wild". Our goal is to build a model that will work in the wild for any chess board, lightning conditions, camera, etc. Such as the one chessify (might) have which is closed source.
 
 #### 5. Model evaluation & testing
 
