@@ -76,7 +76,7 @@ Part of this will be test out existing models, on unseen test data (e.g. from th
 
 The plan is to build a simple mobile app that will run what ever model we train. If you are a mobile dev or have any experience with this, please get in touch!
 
-### 7. Tooling
+#### 7. Tooling
 
 There are various useful tools that we might need, some of which probably already exist:
 1. a chess board visualiser
