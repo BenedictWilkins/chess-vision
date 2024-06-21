@@ -40,3 +40,12 @@ Part of this will be test out existing models, on unseen test data (e.g. from th
 #### 6. Deployment 
 
 The plan is to build a simple mobile app that will run what ever model we train. If you are a mobile dev then please get in touch or have any experience with this, pleae get in touch!
+
+
+### 7. Tooling
+
+There are various useful tools that we might need, some of which probably already exist:
+1. a chess board visualiser
+2. converting model output to FEN format (or otherwise).
+3. integration with a chess engine? (later)
+4. easy ways of correcting incorrect model output, visualing model output, visualising confidence etc. 
