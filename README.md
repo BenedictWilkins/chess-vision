@@ -39,8 +39,7 @@ Part of this will be test out existing models, on unseen test data (e.g. from th
 
 #### 6. Deployment 
 
-The plan is to build a simple mobile app that will run what ever model we train. If you are a mobile dev then please get in touch or have any experience with this, pleae get in touch!
-
+The plan is to build a simple mobile app that will run what ever model we train. If you are a mobile dev or have any experience with this, please get in touch!
 
 ### 7. Tooling
 
